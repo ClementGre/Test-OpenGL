@@ -12,6 +12,6 @@ J'ai aussi utilisé des shaders (programmés en GLSL) mais je n'ai pas pris le t
 ## Les APIs
 
 J'ai utilisé l'API LWJGL (LightWeight Java Game Library) qui est une adaptation de OpenGL pour Java.
-Vous pourez facilement télécharger les dépendances sur internet.
+Vous pourez facilement télécharger les dépendances sur internet ou les retrouver dans le dossier lib du repository.
 
-À côté des dépendances sous forme de Jar se trouvent plusieurs natives, différentes selon les plateformes. J'ai donc intégré les natives dans le Jar avec JarSplice 0.40.
+À côté des dépendances sous forme de Jar se trouvent plusieurs natives, différentes selon les plateformes. J'ai donc intégré les natives dans le Jar avec JarSplice 0.40 (.so pour Linux, .dll pour Windows et .dylib pour Mac).
