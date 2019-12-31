@@ -15,3 +15,5 @@ J'ai utilisé l'API LWJGL (LightWeight Java Game Library) qui est une adaptation
 Vous pourez facilement télécharger les dépendances sur internet ou les retrouver dans le dossier lib du repository.
 
 À côté des dépendances sous forme de Jar se trouvent plusieurs natives, différentes selon les plateformes. J'ai donc intégré les natives dans le Jar avec JarSplice 0.40 (.so pour Linux, .dll pour Windows et .dylib pour Mac).
+
+Vous aurez bien sûr besoin d'avoir auparavant installé Java sur votre machine (1.8 et 1.11 testés).
